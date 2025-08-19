@@ -110,7 +110,7 @@ public class BallisticMissile : MonoBehaviour
 
         descentStartPoint = cruiseEndPoint;
         descentEndPoint = targetPos;
-        // **FIXED** Reverted to the stable method for the control point to prevent the "dive"
+
         descentControlPoint = Vector3.Slerp(descentStartPoint, descentEndPoint, 0.5f).normalized * cruiseRadius;
 
 
@@ -157,7 +157,6 @@ public class BallisticMissile : MonoBehaviour
         {
             currentPhase = FlightPhase.Impact;
             Impact();
-            // Optionally destroy the object: Destroy(gameObject);
         }
     }
 
@@ -178,11 +177,17 @@ public class BallisticMissile : MonoBehaviour
 
     private void UpdateRotation(Vector3 newPosition)
     {
-        if (Vector3.Distance(transform.position, newPosition) > 0.001f)
+        Vector3 direction = newPosition - transform.position;
+
+        // Only update rotation if there is a meaningful direction to look at
+        if (direction.sqrMagnitude > 0.001f)
         {
-            transform.rotation = Quaternion.LookRotation(newPosition - transform.position);
+            Quaternion targetRotation = Quaternion.LookRotation(direction);
+            // **FIX** Smoothly turn towards the target rotation instead of snapping
+            transform.rotation = Quaternion.RotateTowards(transform.rotation, targetRotation, 180.0f);
         }
     }
+
 
     private float CalculateBezierLength(Vector3 p0, Vector3 p1, Vector3 p2, int segments = 20)
     {
