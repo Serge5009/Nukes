@@ -5,6 +5,8 @@ public class GameManager : MonoBehaviour
 {
 
 
+    public GameObject planetModel;
+
     //  Time scale controls
     public float changeMultiplicator = 4;
     float lastSpeed = 1;
