@@ -160,7 +160,7 @@ public class BallisticMissile : MonoBehaviour
     {
         if (ascentDuration <= 0) { currentPhase = FlightPhase.Cruise; return; }
 
-        ascentProgress += Time.deltaTime / ascentDuration;
+        ascentProgress += CustomTime.deltaTime / ascentDuration;
         Vector3 newPosition = GetQuadraticBezierPoint(ascentStartPoint, ascentEndPoint, ascentControlPoint, ascentProgress);
 
         if (transform.position != newPosition)
@@ -179,7 +179,7 @@ public class BallisticMissile : MonoBehaviour
     {
         if (cruiseDuration <= 0) { currentPhase = FlightPhase.Descent; return; }
 
-        cruiseProgress += Time.deltaTime / cruiseDuration;
+        cruiseProgress += CustomTime.deltaTime / cruiseDuration;
         Vector3 newPosition = Vector3.Slerp(cruiseStartPoint, cruiseEndPoint, cruiseProgress);
 
         if (transform.position != newPosition)
@@ -198,7 +198,7 @@ public class BallisticMissile : MonoBehaviour
     {
         if (descentDuration <= 0) { currentPhase = FlightPhase.Impact; return; }
 
-        descentProgress += Time.deltaTime / descentDuration;
+        descentProgress += CustomTime.deltaTime / descentDuration;
         Vector3 newPosition = GetQuadraticBezierPoint(descentStartPoint, descentEndPoint, descentControlPoint, descentProgress);
 
         if (transform.position != newPosition)
