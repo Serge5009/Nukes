@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class AllignToGlobe : MonoBehaviour
+public class AlignToGlobe : MonoBehaviour
 {
     [Header("Settings")]
     [Tooltip("The planet Transform to align this object to. Assumed to be a sphere at the world origin.")]
