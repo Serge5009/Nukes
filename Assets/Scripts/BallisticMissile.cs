@@ -24,6 +24,10 @@ public class BallisticMissile : MonoBehaviour
     [Tooltip("Overall speed of the missile in km/s at a time scale of 1.")]
     public float missileSpeedKps = 7f;
 
+    [Header("Explosion")]
+    [SerializeField] GameObject explosionPrefab;
+
+
     // Private trajectory data
     private Vector3 ascentStartPoint, ascentEndPoint, ascentControlPoint;
     private Vector3 cruiseStartPoint, cruiseEndPoint;
@@ -152,9 +156,15 @@ public class BallisticMissile : MonoBehaviour
         if (descentProgress >= 1.0f)
         {
             currentPhase = FlightPhase.Impact;
-            Debug.Log("Impact!");
+            Impact();
             // Optionally destroy the object: Destroy(gameObject);
         }
+    }
+
+    void Impact()
+    {
+        Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+        Destroy(gameObject);
     }
 
     // --- Helper Methods ---
