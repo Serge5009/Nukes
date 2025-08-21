@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8b176b7c555025d4c9dec1c09b78474b, type: 3}
-  m_Name: IvoryCoast
+  m_Name: Canada
   m_EditorClassIdentifier: 
-  regionName: Ivory Coast
+  regionName: Canada
   regionIDColor:
     serializedVersion: 2
-    rgba: 4287305230
-  population: 26380000
-  economyValue: 250
+    rgba: 4280556683
+  population: 35000000
+  economyValue: 1000
