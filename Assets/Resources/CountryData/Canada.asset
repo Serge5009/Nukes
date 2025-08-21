@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4d1fa4d07c0d8f4bb550c593834ac05, type: 3}
   m_Name: Canada
   m_EditorClassIdentifier: 
-  countryName: 
+  countryName: Canada
   countryColor:
     serializedVersion: 2
-    rgba: 0
+    rgba: 4278256055

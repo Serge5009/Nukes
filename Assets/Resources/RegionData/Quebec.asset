@@ -16,5 +16,6 @@ MonoBehaviour:
   regionIDColor:
     serializedVersion: 2
     rgba: 4289185610
+  ownerCountry: {fileID: 11400000, guid: 3eafc0af6f4245d48aa3caf00d29fd5c, type: 2}
   population: 3500000
   economyValue: 1000
