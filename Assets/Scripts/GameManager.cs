@@ -66,6 +66,11 @@ public class GameManager : MonoBehaviour
         
     }
 
+    public void SetViewMode(int modeToSet)
+    {
+        FindObjectOfType<GlobeDisplayManager>().SetViewMode((GlobeViewMode)modeToSet);
+    }
+
     #region Game Time
     void OnSpeedUp(InputAction.CallbackContext context)
     {

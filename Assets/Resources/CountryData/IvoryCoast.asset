@@ -9,13 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b176b7c555025d4c9dec1c09b78474b, type: 3}
-  m_Name: Water
+  m_Script: {fileID: 11500000, guid: e4d1fa4d07c0d8f4bb550c593834ac05, type: 3}
+  m_Name: IvoryCoast
   m_EditorClassIdentifier: 
-  regionName: Ocean
-  regionIDColor:
+  countryName: IvoryCoast
+  countryColor:
     serializedVersion: 2
-    rgba: 4278190080
-  ownerCountry: {fileID: 11400000, guid: 50f8c65acd5414b44a41d816b0a29db4, type: 2}
-  population: 0
-  economyValue: 0
+    rgba: 4280064719

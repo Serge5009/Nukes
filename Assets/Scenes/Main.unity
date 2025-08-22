@@ -201,7 +201,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 15007993}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 573322433}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: SetViewMode
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &15007993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -311,7 +323,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: fb99bd34a1fe6df43984dcbd848a2f7a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 1833cb5bd7d5e8549a462aa5fb171027, type: 2}
+      objectReference: {fileID: 2100000, guid: 2f8535c4708aa144c822b48fdff8de27, type: 2}
     - target: {fileID: 919132149155446097, guid: fb99bd34a1fe6df43984dcbd848a2f7a, type: 3}
       propertyPath: m_Name
       value: Earth
@@ -489,7 +501,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 242508406}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 573322433}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: SetViewMode
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &242508406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1926,7 +1950,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1655935001}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 573322433}
+        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+        m_MethodName: SetViewMode
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1655935001
 MonoBehaviour:
   m_ObjectHideFlags: 0
