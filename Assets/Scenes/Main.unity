@@ -987,6 +987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   globeRenderer: {fileID: 1679449849}
   regionIDMap: {fileID: 2800000, guid: 58f16d0126e1a8d4dacdd103e3cc512f, type: 3}
+  borderMap: {fileID: 2800000, guid: 12a705565a6ae1b4a8963826b127668e, type: 3}
 --- !u!1 &623640466
 GameObject:
   m_ObjectHideFlags: 0
