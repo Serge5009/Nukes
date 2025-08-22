@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b176b7c555025d4c9dec1c09b78474b, type: 3}
   m_Name: Krakow
   m_EditorClassIdentifier: 
-  regionName: Poznan
+  regionName: Krakow
   regionIDColor:
     serializedVersion: 2
-    rgba: 4289762157
+    rgba: 4285050924
   ownerCountry: {fileID: 11400000, guid: 9e1f3bfcf43221c4fa935bc1ed7b715d, type: 2}
   population: 10000000
   economyValue: 450
