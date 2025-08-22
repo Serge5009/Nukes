@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73c01506bd5b6c54a8ebf0f9f2ce819d, type: 3}
+  m_Name: Border_86
+  m_EditorClassIdentifier: 
+  borderPoints:
+  - {x: 1062.6826, y: 6161.012, z: 1200.4429}
+  - {x: 1062.7081, y: 6159.6895, z: 1207.6533}
+  - {x: 1061.4694, y: 6159.7646, z: 1208.4648}
+  - {x: 1058.9662, y: 6161.236, z: 1202.877}
+  - {x: 1057.7273, y: 6161.3105, z: 1203.6885}
+  - {x: 1056.4885, y: 6161.3853, z: 1204.5}
+  - {x: 1053.9852, y: 6162.8564, z: 1198.9116}
+  - {x: 1053.9597, y: 6164.1787, z: 1191.7012}
+  - {x: 1055.1986, y: 6164.1045, z: 1190.8896}
+  - {x: 1057.7018, y: 6162.633, z: 1196.4775}
+  - {x: 1058.9406, y: 6162.5576, z: 1195.6665}
+  - {x: 1060.1794, y: 6162.484, z: 1194.855}
