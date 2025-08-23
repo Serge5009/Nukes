@@ -323,7 +323,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: fb99bd34a1fe6df43984dcbd848a2f7a, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 2f8535c4708aa144c822b48fdff8de27, type: 2}
+      objectReference: {fileID: 2100000, guid: 42148e4e39798a74d9fc25285444754e, type: 2}
     - target: {fileID: 919132149155446097, guid: fb99bd34a1fe6df43984dcbd848a2f7a, type: 3}
       propertyPath: m_Name
       value: Earth
@@ -1550,7 +1550,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1147387577
 Transform:
   m_ObjectHideFlags: 0
